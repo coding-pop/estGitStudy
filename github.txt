@@ -7,6 +7,8 @@
   프로젝트가 잘못됐을 경우는 굉장히 다른 방향으로 사용
 - 프로젝트가 진행되는 도중에는 누구나 실수할 수 있음
   (문제가 발생했을 때는 해결이 우선)
+-  프로젝트에서 나오는 것: 산출물
+- 주석의 기본 원칙 : 누가, 언제, 무엇 때문에 작성
 
 형상관리는 완벽한가?
 - 통제의 어려움
@@ -138,3 +140,15 @@ git config --unset --global user.name "이름(username)"
 
 스테이지에 파일 추가
 git add 파일명( * / 전부다)
+
+스테이지에 업로드 된 파일 확인
+git status
+
+git repository로 commit
+git dommit -m "commit msg"
+
+github로 업로드 시도
+remote 설정
+
+처음 연결
+git remote add origin https://github.com/coding-pop/estGitStudy.git
