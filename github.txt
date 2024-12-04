@@ -145,10 +145,19 @@ git add 파일명( * / 전부다)
 git status
 
 git repository로 commit
-git dommit -m "commit msg"
+git commit -m "commit msg"
 
 github로 업로드 시도
 remote 설정
 
 처음 연결
 git remote add origin https://github.com/coding-pop/estGitStudy.git
+
+
+---
+github로 업로드 (push)
+git push origin(리모트명) main(브랜치명)
+→ 잘 안 됐을 경우 git branch로 브랜치명이 맞는지 확인
+→ 안 맞다면 git branch -m (이전 브랜치명) (바꿀 브랜치명)
+
+git pull origin main --allow-unrelated-histories
